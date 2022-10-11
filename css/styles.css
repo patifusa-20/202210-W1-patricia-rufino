@@ -9,6 +9,10 @@ a {
     color: #2f7184;
 }
 
+a:hover {
+    color: azure;
+}
+
 .wrapper-list li {
     display: inline-block;
     padding: 20px;
@@ -20,5 +24,4 @@ a {
 
 .wrapper-list li:hover {
     background-color: #2f7184;
-    color: azure;
 }
