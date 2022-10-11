@@ -189,4 +189,7 @@ const typeOfUserFunction = () => {
     return typeOfUser;
 };
 
-typeOfUserFunction();
+const getBtnStart = document.querySelector('#btn-start');
+getBtnStart.addEventListener('click', () => {
+    typeOfUserFunction();
+});
