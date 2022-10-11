@@ -4,10 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <title>Juego del Pasapalabra</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
         <main class="interface-game">
@@ -42,43 +45,74 @@
                         <li class="circle">Z</li>
                     </ul>
                 </div>
-                <div class="counter"></div> 
-                <div class="timer"></div>                
+                <div class="counter"></div>
+                <div class="timer"></div>
             </section>
             <aside>
                 <div class="instructions">
-                    <h2>Bienvenidos al juego del Pasapalabra de ISDI CODERS</h2>
-                    <p>Basado en el exitoso concurso de televisión Pasapalabra de Telecinco, las normas son muy sencillas:</p>
+                    <h2>Bienvenidos al Pasapalabra de ISDI CODERS</h2>
+                    <p>
+                        Basado en el exitoso concurso de televisión Pasapalabra
+                        de Telecinco, las normas son muy sencillas:
+                    </p>
                     <ul>
                         <li>
-                            <p>Se mostraran unas definiciones por pantalla y el usuario deberá responder con la palabra a la que corresponden.</p>
+                            <p>
+                                Se mostraran unas definiciones por pantalla y el
+                                usuario deberá responder con la palabra a la que
+                                corresponden.
+                            </p>
                         </li>
                         <li>
-                            <p>El usuario tiene la opción de decir Pasapalabra y dejar esa definición para mas adelante.</p>
+                            <p>
+                                El usuario tiene la opción de decir Pasapalabra
+                                y dejar esa definición para mas adelante.
+                            </p>
                         </li>
                         <li>
-                            <p>El programa es sensible a las acentuación, asi que se debe introducir la palabra sin tilde.</p>
+                            <p>
+                                El programa es sensible a las acentuación, asi
+                                que se debe introducir la palabra sin tilde.
+                            </p>
                         </li>
                         <li>
-                            <p>Es posible utilizar la tecla ENTER para enviar la palabra y el SPACE para hacer pasapalabra.</p>
+                            <p>
+                                Es posible utilizar la tecla ENTER para enviar
+                                la palabra y el SPACE para hacer pasapalabra.
+                            </p>
                         </li>
-                    </ul>                          
-                    <button id="start" class="cta-btn" type="button">JUGAR</button>
+                    </ul>
+                    <button id="start" class="cta-btn" type="button">
+                        JUGAR
+                    </button>
                 </div>
                 <div class="game">
                     <div id="close" class="close-btn">x</div>
                     <h2>Empieza por <span class="letter"></span></h2>
                     <p class="definition"></p>
                     <div class="group-form">
-                        <input id="answer-user" type="text" placeholder="Escribe tu respuesta">
-                        <button id="send-answer" class="send-btn" type="button">ENVIAR</button>
-                        <button id="key-word" class="text-btn" type="button">PASAPALABRA ></button>
+                        <input
+                            id="answer-user"
+                            type="text"
+                            placeholder="Escribe tu respuesta"
+                        />
+                        <button id="send-answer" class="send-btn" type="button">
+                            ENVIAR
+                        </button>
+                        <button id="key-word" class="text-btn" type="button">
+                            PASAPALABRA >
+                        </button>
                     </div>
                 </div>
                 <div class="end-game">
                     <h2>FIN DE PARTIDA!</h2>
-                    <h3>Has conseguido un total de <span id="corrects-words"></span> aciertos</h3>
-                    <button id="play-again" type="button">JUGAR OTRA VEZ</button>
+                    <h3>
+                        Has conseguido un total de
+                        <span id="corrects-words"></span> aciertos
+                    </h3>
+                    <button id="play-again" type="button">
+                        JUGAR OTRA VEZ
+                    </button>
                 </div>
             </aside>
         </main>
