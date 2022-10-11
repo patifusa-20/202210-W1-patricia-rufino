@@ -411,5 +411,9 @@ const welcomeBingo = () => {
 //Inicialmente, crearemos algunos jugadores ficticios para rellenar el ranking
 createScoringBoard('Carlos', 250);
 createScoringBoard('Marta', 34);
-//Inicializamos el juego
-welcomeBingo();
+
+const getStartBtn = document.querySelector('#btn-start');
+getStartBtn.addEventListener('click', () => {
+    //Inicializamos el juego
+    welcomeBingo();
+});
