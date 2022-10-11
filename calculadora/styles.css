@@ -1,0 +1,119 @@
+/*RESET DEFAULT STYLE UL*/
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*STYLES CALCULATOR*/
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 96vw;   
+    max-width: 480px;
+}
+
+.screen {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #33383a;    
+    height: 30vh;
+}
+.header-buttons {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+}
+.circle-btn {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.close { background-color: #ff0000;}
+.resize { background-color: #ebf746;}
+.hide { background-color: #60d6a9;}
+.screen-values {
+    margin-right: 30px;
+    color: white;
+    font-size: 80px;
+}
+.screen-operation {
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+.operators-top {
+    background-color: #99b3b9;
+    display: flex;
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+.operators-side {
+    display: flex;
+    flex-direction: column;
+    background-color: #c99918;
+    grid-column: 4;
+    grid-row: 1 / 6;
+    border-radius: 0px 0px 20px 0px;
+}
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a1c5ce;
+    grid-column: 1 / 4;
+    grid-row: 2 / 6;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.key {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ffffff;
+    color: black;
+    font-size: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.key:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+.key:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.operators-side .key {
+    color: #ffffff;
+}
+.operators-side .key:last-child {
+    border-radius: 0px 0px 20px 0px;
+}
+
+.operators-top .key {
+    width: 33.333%;
+}
+
+.numbers .key {
+    height: 25%;
+    width: 33.333%;
+}
+.numbers .key.custom-col {
+    width: 66.6666%;
+    border-radius: 0px 0px 0px 20px;
+}
