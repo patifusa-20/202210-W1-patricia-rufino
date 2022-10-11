@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    color: #094866;
+}
+a {
+    color: #a16202;
+}
+
+.wrapper-list {
+    display: inline-block;
+}
+
+.wrapper-list li {
+    padding: 20px;
+}
