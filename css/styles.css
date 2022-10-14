@@ -17,7 +17,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #a9e7e7;
+    color: #c3ecec;
 }
 
 .wrapper {
@@ -35,13 +35,14 @@ a {
 
 .wrapper-list li {
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     margin: 20px 0 0;
     width: 80%;
     cursor: pointer;
-    background-color: /*#a9e7e7*/ #2f7184;
+    background-color: /*#a9e7e7*/ #397c8f;
     border-radius: 10px;
     box-shadow: 2px 2px 6px rgb(0 0 0 / 5%);
+    transform: scale(1);
 }
 
 .wrapper-list li:last-child {
@@ -51,13 +52,13 @@ a {
 .wrapper-list li:hover {
     background-color: #2f7184;
     box-shadow: 0;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, transform 1s;
+    transform: scale(1.1);
 }
 
 .wrapper-list li:hover a {
-    transition: color 1s, letter-spacing 1s;
+    transition: color 1s;
     color: azure;
-    letter-spacing: 1px;
 }
 
 .tag {
