@@ -1,6 +1,6 @@
 /*DEFAULT STYLES*/
 body {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     background-color: #7ecaca;
     font-size: 16px;
     color: #053535;
@@ -14,14 +14,14 @@ button {
     letter-spacing: 1.2px;
     color: #ffffff;
     border-radius: 12px;
-    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
     font-weight: 600;
     cursor: pointer;
 }
 
 button:hover {
     background-color: #882950;
-    box-shadow: 3px 3px 6px rgba(0,0,0,0);;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0);
 }
 
 input {
@@ -31,19 +31,28 @@ input {
     padding-left: 20px;
     border: none;
     border-radius: 12px 0px 0px 12px;
-    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-h1 { font-size: 2.5rem;}
-h2 { font-size: 2.1rem;}
-h3 { font-size: 1.6rem;}
-p { font-size:  1rem;}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.1rem;
+}
+h3 {
+    font-size: 1.6rem;
+}
+p {
+    font-size: 1rem;
+}
 
 /*GAME STYLES*/
 .interface-game {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 95vh;
 }
 
@@ -59,13 +68,13 @@ p { font-size:  1rem;}
     color: #c53a74;
 }
 
-.circle-of-letters {    
+.circle-of-letters {
     margin: 0;
     padding: 0;
     list-style: none;
     position: relative;
-	width: 500px;
-	height: 500px; 
+    width: 500px;
+    height: 500px;
 }
 
 .circle {
@@ -92,9 +101,14 @@ p { font-size:  1rem;}
 }
 
 aside {
-    width: 40%;
-    max-width: 45%;
+    width: 80%;
     margin-left: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    aside {
+        width: 40%;
+    }
 }
 
 .cta-btn {
@@ -138,7 +152,8 @@ aside {
     background-color: #05353585;
 }
 
-.counter, .timer {
+.counter,
+.timer {
     opacity: 0;
     background-color: #05353577;
     color: white;
@@ -146,31 +161,107 @@ aside {
     display: inline-block;
 }
 
-.game, .end-game { display: none;}
+.game,
+.end-game {
+    display: none;
+}
 
-
-.circle:first-child { left: calc(50% - 20px);}
-.circle:nth-child(2) { top: 1%; right: 34%;}
-.circle:nth-child(3) { top: 6%; right: 23%;}
-.circle:nth-child(4) { top: 13%; right: 14%;}
-.circle:nth-child(5) { top: 21%; right: 7%;}
-.circle:nth-child(6) { top: 32%; right: 2%;}
-.circle:nth-child(7) { bottom: 49%; right: 0%;}
-.circle:nth-child(8) { top: 54%; right: 1%;}
-.circle:nth-child(9) { top: 65%; right: 4%;}
-.circle:nth-child(10) { top: 75%; right: 10%;}
-.circle:nth-child(11) { top: 83%; right: 19%;}
-.circle:nth-child(12) { top: 89%; right: 29%}
-.circle:nth-child(13) { top: 91%; right: 40%;}
-.circle:nth-child(14) { top: 91%; right: 51%;}
-.circle:nth-child(15) { top: 89%; right: 62%;}
-.circle:nth-child(16) { top: 83%; right: 73%;}
-.circle:nth-child(17) { top: 75%; right: 81%;}
-.circle:nth-child(18) { top: 65%; right: 88%;}
-.circle:nth-child(19) { top: 54%; right: 91%;}
-.circle:nth-child(20) { top: 43%; right: 92%;}
-.circle:nth-child(21) { top: 32%; right: 90%;} 
-.circle:nth-child(22) { top: 21%; right: 85%;} 
-.circle:nth-child(23) { top: 12%; right: 77%;} 
-.circle:nth-child(24) { top: 5%; right: 68%;} 
-.circle:nth-child(25) { top: 1%; right: 57%;} 
+.circle:first-child {
+    left: calc(50% - 20px);
+}
+.circle:nth-child(2) {
+    top: 1%;
+    right: 34%;
+}
+.circle:nth-child(3) {
+    top: 6%;
+    right: 23%;
+}
+.circle:nth-child(4) {
+    top: 13%;
+    right: 14%;
+}
+.circle:nth-child(5) {
+    top: 21%;
+    right: 7%;
+}
+.circle:nth-child(6) {
+    top: 32%;
+    right: 2%;
+}
+.circle:nth-child(7) {
+    bottom: 49%;
+    right: 0%;
+}
+.circle:nth-child(8) {
+    top: 54%;
+    right: 1%;
+}
+.circle:nth-child(9) {
+    top: 65%;
+    right: 4%;
+}
+.circle:nth-child(10) {
+    top: 75%;
+    right: 10%;
+}
+.circle:nth-child(11) {
+    top: 83%;
+    right: 19%;
+}
+.circle:nth-child(12) {
+    top: 89%;
+    right: 29%;
+}
+.circle:nth-child(13) {
+    top: 91%;
+    right: 40%;
+}
+.circle:nth-child(14) {
+    top: 91%;
+    right: 51%;
+}
+.circle:nth-child(15) {
+    top: 89%;
+    right: 62%;
+}
+.circle:nth-child(16) {
+    top: 83%;
+    right: 73%;
+}
+.circle:nth-child(17) {
+    top: 75%;
+    right: 81%;
+}
+.circle:nth-child(18) {
+    top: 65%;
+    right: 88%;
+}
+.circle:nth-child(19) {
+    top: 54%;
+    right: 91%;
+}
+.circle:nth-child(20) {
+    top: 43%;
+    right: 92%;
+}
+.circle:nth-child(21) {
+    top: 32%;
+    right: 90%;
+}
+.circle:nth-child(22) {
+    top: 21%;
+    right: 85%;
+}
+.circle:nth-child(23) {
+    top: 12%;
+    right: 77%;
+}
+.circle:nth-child(24) {
+    top: 5%;
+    right: 68%;
+}
+.circle:nth-child(25) {
+    top: 1%;
+    right: 57%;
+}
