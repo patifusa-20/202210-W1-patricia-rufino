@@ -1,0 +1,65 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    color: #094866;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 5fr 0.5fr;
+}
+
+header {
+    grid-row: 1/2;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+article {
+    background-color: #8bd7d7;
+    grid-row: 2/3;
+}
+
+footer {
+    font-size: 0.8em;
+    padding-top: 15px;
+    grid-row: 3/4;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*DEFAULT STYLES*/
+button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c53a74;
+    border: 0;
+    padding: 17px 22px;
+    font-size: 0.8rem;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #882950;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0);
+}
+
+main {
+    text-align: center;
+    background-color: #8bd7d7;
+    grid-row: 2/3;
+}

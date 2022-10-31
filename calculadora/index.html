@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My calculator</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <main class="calculator">
-      <section class="screen">
-        <ul class="header-buttons">
-          <li class="circle-btn close"></li>
-          <li class="circle-btn resize"></li>
-          <li class="circle-btn hide"></li>
-        </ul>
-        <div class="screen-operation"></div>
-        <div class="screen-values"></div>
-      </section>
-      <section class="keys">        
-        <ul class="operators-top">
-          <li id="reset" class="key">AC</li>
-          <li id="posNeg" class="key">+/−</li>
-          <li id="percent" class="key">%</li>
-        </ul>
-        <ul class="operators-side">
-          <li id="div" class="key operator">÷</li>
-          <li id="mult" class="key operator">×</li>
-          <li id="rest" class="key operator">−</li>
-          <li id="sum" class="key operator">+</li>
-          <li id="equal" class="key">=</li>
-        </ul>
-        <ul class="numbers">
-          <li class="key num">7</li>
-          <li class="key num">8</li>
-          <li class="key num">9</li>
-          <li class="key num">4</li>
-          <li class="key num">5</li>
-          <li class="key num">6</li>
-          <li class="key num">1</li>
-          <li class="key num">2</li>
-          <li class="key num">3</li>
-          <li class="key num custom-col">0</li>
-          <li id="comma" class="key">,</li>
-        </ul>        
-      </section>
-    </main>
-    
-
-    <script type="text/javascript" src="main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>My calculator</title>
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link href="../css/common.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <a href="../index.html"> <h1>Challenge Week 1</h1> </a>
+        </header>
+        <main>
+            <div class="calculator">
+                <section class="screen">
+                    <ul class="header-buttons">
+                        <li class="circle-btn close"></li>
+                        <li class="circle-btn resize"></li>
+                        <li class="circle-btn hide"></li>
+                    </ul>
+                    <div class="screen-operation"></div>
+                    <div class="screen-values"></div>
+                </section>
+                <section class="keys">
+                    <ul class="operators-top">
+                        <li id="reset" class="key">AC</li>
+                        <li id="posNeg" class="key">+/−</li>
+                        <li id="percent" class="key">%</li>
+                    </ul>
+                    <ul class="operators-side">
+                        <li id="div" class="key operator">÷</li>
+                        <li id="mult" class="key operator">×</li>
+                        <li id="rest" class="key operator">−</li>
+                        <li id="sum" class="key operator">+</li>
+                        <li id="equal" class="key">=</li>
+                    </ul>
+                    <ul class="numbers">
+                        <li class="key num">7</li>
+                        <li class="key num">8</li>
+                        <li class="key num">9</li>
+                        <li class="key num">4</li>
+                        <li class="key num">5</li>
+                        <li class="key num">6</li>
+                        <li class="key num">1</li>
+                        <li class="key num">2</li>
+                        <li class="key num">3</li>
+                        <li class="key num custom-col">0</li>
+                        <li id="comma" class="key">,</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>Made with &hearts; by Patricia Rufino 2022</footer>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>
