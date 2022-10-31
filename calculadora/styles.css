@@ -1,7 +1,4 @@
 /*RESET DEFAULT STYLE UL*/
-body {
-    font-family: 'Poppins', sans-serif; 
-}
 ul {
     margin: 0;
     padding: 0;
@@ -11,8 +8,10 @@ ul {
 .calculator {
     display: flex;
     flex-direction: column;
-    width: 96vw;   
+    width: 96vw;
     max-width: 480px;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .screen {
@@ -22,7 +21,7 @@ ul {
     align-items: flex-end;
     flex-direction: column;
     border-radius: 20px 20px 0px 0px;
-    background-color: #33383a;    
+    background-color: #33383a;
     height: 30vh;
 }
 .header-buttons {
@@ -38,9 +37,15 @@ ul {
     border-radius: 50%;
     margin-right: 10px;
 }
-.close { background-color: #ff0000;}
-.resize { background-color: #ebf746;}
-.hide { background-color: #60d6a9;}
+.close {
+    background-color: #ff0000;
+}
+.resize {
+    background-color: #ebf746;
+}
+.hide {
+    background-color: #60d6a9;
+}
 .screen-values {
     margin-right: 30px;
     color: white;
@@ -92,10 +97,10 @@ ul {
     cursor: pointer;
 }
 .key:hover {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .key:hover {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .operators-side .key {
