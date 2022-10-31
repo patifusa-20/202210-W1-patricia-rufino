@@ -8,6 +8,11 @@ article {
     background-color: #8bd7d7;
 }
 
+footer {
+    font-size: 0.8em;
+    padding-top: 15px;
+}
+
 h1 {
     font-size: 2.5em;
 }
@@ -26,7 +31,7 @@ a {
     align-items: center;
     max-width: 50%;
     margin: auto;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 .wrapper-description {
