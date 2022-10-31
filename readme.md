@@ -1,6 +1,6 @@
 # :zap: Challenge Week 1
 
-<img align="right" width="349" height="230" alt="ISDI CODER LOGO" src="/images/isdi_logo.jpg">
+<img align="right" width="249" height="123" alt="ISDI CODER LOGO" src="/images/isdi_logo.jpg">
 
 Crear un proyecto donde se encuentren todos los ejercicios de HTML hechos en el Precurso del Bootcampo Frontend de ISDI CODERS.
 
